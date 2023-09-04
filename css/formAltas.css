@@ -14,15 +14,29 @@ body {
     font-family: 'Lexend', sans-serif;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-image: url(../wallpaper.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 90vh;
 }
 
 form {
     background-color: #24253c;
     display: flex;
     flex-direction: column;
+    
     padding: 50px;
     width: 420px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -34,57 +48,34 @@ form h2 {
     color: #EDF0F0;
     margin: 35px;
 
+}
 
+input {
+    padding: 15px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #603452;
+    margin-bottom: 30px;
+    outline: none;
+    color: #ffffff;
+    font-size: 16px;
+}
 
+::placeholder {
+    color: #89879b;
+}
 
+.btn {
+    background-color: #E53854;
+    border: 2px solid #E53854;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #E33854;
+    border: 2px solid #E53854;
 }
 
 
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-
-
-}
-
-
-
-
-
-
-.container{
-    margin: 50px;
-    display: flex;
-    flex-direction: column;
-}
-
-.altaTitulo{
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.altaInput{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-}
-
-.grupoInputs{
-    width: 50%;
-    margin: 10px;
-}
-
-.grupoInputs input{
-    width: 70%;
-}
-
-.grupoInputs label{
-    padding: 10px;
-}
-
-.btn-submit{
-    width: 20%;
-    align-self:flex-end;
-}
 
