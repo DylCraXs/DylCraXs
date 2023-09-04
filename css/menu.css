@@ -2,30 +2,39 @@ body{
     margin: 0;
     padding: 0;
     background-color: aliceblue;
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    background-color: #24253c;
 }
 
 .header{
     display: flex;
     flex-direction: column;
-    background-color: gainsboro;
+    background-color: #24253c;
     height: 120px;
 }
 
 .titulo{
     text-align: center;
     color: rgb(68, 66, 66);
+    font-family: 'Lexend', sans-serif;
 }
 
 .menu{
     display: flex;
     justify-content: space-around;
+    background-color: #24253c;
 }
 
 .menu a{
     text-decoration: none;
     padding: 10px;
     color: rgb(71, 69, 69);
-    background-color: gainsboro;
+    background-color: #24253c;
     margin: 10px;
 }
 
