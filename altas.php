@@ -35,10 +35,10 @@ $cadena= "INSERT INTO persona(apellido, nombre, edad,foto) VALUES ('$ape','$nom'
 $resultado = mysqli_query($Conexion,$cadena);
 
 if($resultado){
-		print "se ha insertado un registro"."<br>";
+		echo "<center><h1>se ha insertado un registro <h1><center>"."<br>";
 
 }else{
-	print "NO se ha generado un registro"."<br>";
+	echo "<center><h1>NO se ha generado un registro <h1><center>"."<br>";
 }
 
 }
