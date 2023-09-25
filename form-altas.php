@@ -14,7 +14,7 @@ include 'menu.php';
 <body>
 	<style>
         body {
-            background-image: url(./wallpaper3.jpg);
+            background-image: url(./wallpaper.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -25,13 +25,13 @@ include 'menu.php';
 		<form class="altaInput" action="altas.php" method="POST" enctype="multipart/form-data">
     		<h3 class="altaTitulo">FORMULARIO DE ALTA</h3>
 			<div class="grupoInputs">
-			<input type="text" placeholder="Apellido"><br>
+			<input type="text" name="apellido"><br>
 			</div>
 			<div class="grupoInputs">
-			<input type="text" placeholder="Nombre"><br>
+			<input type="text" name="nombre"><br>
     	    </div>
 			<div class="grupoInputs">
-			<input type="text" placeholder="Edad"><br>
+			<input type="text" name="edad"><br>
 		    </div>
 			<div class="grupoInputs">
 			<input type="file" name="foto"><br>

@@ -1,3 +1,8 @@
+.body{
+    background-image: url(../wallpaper.jpg);
+}
+
+
 .tabla{
     border: 1px solid rgb(16, 15, 15);
     width: 80%;

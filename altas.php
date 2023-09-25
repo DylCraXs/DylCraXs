@@ -18,7 +18,7 @@ $fotoTamanio = $_FILES["foto"]["size"];
 
 // salida de informacion
 
-echo "<h3>".$ape."</h3>". "<h3>".$nom."</h3>". "<h3>".$ed."</h3>";
+
 
 if($foto != "none")
 {
@@ -35,7 +35,7 @@ $cadena= "INSERT INTO persona(apellido, nombre, edad,foto) VALUES ('$ape','$nom'
 $resultado = mysqli_query($Conexion,$cadena);
 
 if($resultado){
-	print "se ha insertado un registro"."<br>";
+		print "se ha insertado un registro"."<br>";
 
 }else{
 	print "NO se ha generado un registro"."<br>";
