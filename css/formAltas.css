@@ -36,7 +36,7 @@ header {
 }
 
 form {
-    background-color: #121415;
+    background-color: #11141d;
     padding: 50px 50px 40px;
     display: flex;
     flex-direction: column;
@@ -47,10 +47,24 @@ form {
     text-align: center;
 }
 
+
+
 .fotoinput{
-    display: none;
-    color: gray;
+    opacity: 0%;
+    overflow: hidden;
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    display: block;
 }
+
+
+.btn-file{
+
+    margin-bottom: 0;
+}
+
+
 
 form h2 {
     font-size: 30px;
