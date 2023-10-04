@@ -34,14 +34,18 @@ include 'menu.php';
 			<input type="mail" name="mail" placeholder="Mail"><br>
 		    </div>
 			<div class="grupoInputs">
-			<input type="file" name="foto"><br>
+			<input type="text" class="btn-file" value="Abrir archivo" disabled>
+			<input class="fotoinput" type="file" name="foto"><br>
 		    </div>
 			<div class="btn-submit">
 			<input type="submit" value="Grabar"><br>
 		    </div>
 		</form>
 	</div>
-	
+	<script>
+		let foto = document.querySelector(".fotoinput");
+		console.dir(foto);
+	</script>
 	
 </body>
 </html>
