@@ -36,14 +36,20 @@ header {
 }
 
 form {
-    background-color: #000000;
+    background-color: #121415;
+    padding: 50px 50px 40px;
     display: flex;
     flex-direction: column;
     color: #ffffff;
-    padding: 50px;
+
     width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     text-align: center;
+}
+
+.fotoinput{
+    display: none;
+    color: gray;
 }
 
 form h2 {
