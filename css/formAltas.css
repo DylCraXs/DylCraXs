@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url(../3D_Wallpaper.webp);
+    background-image: url(../dylan.jpg);
     font-family: 'Lexend', sans-serif;
     display: flex;
     flex-direction: column;
@@ -36,7 +36,7 @@ header {
 }
 
 form {
-    background-color: #000000;
+    background-color: #24292e;
     display: flex;
     flex-direction: column;
     color: #ffffff;
