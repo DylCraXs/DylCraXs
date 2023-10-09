@@ -27,13 +27,13 @@ body{
 .menu a{
     text-decoration: none;
     padding: 10px;
-    color: rgb(71, 69, 69);
+    color: rgb(214, 214, 214);
     margin: 10px;
 }
 
 .menu a:hover{
-    border: 1px solid rgb(56, 55, 55);
-    background-color: rgba(207, 240, 250, 0.938);
-    color: rgb(26, 23, 23);
+    border: 1px solid rgb(255, 255, 255);
+    background-color: linear-gradient(0, #5c7839 0, #51763d 7.14%, #44723f 14.29%, #366b41 21.43%, #276241 28.57%, #18573e 35.71%, #094a39 42.86%, #003b31 50%, #002c28 57.14%, #00201f 64.29%, #001717 71.43%, #000d0f 78.57%, #000105 85.71%, #000000 92.86%, #000000 100%);;
+    color: rgb(255, 255, 255);
     border-radius: 10px;
 }
