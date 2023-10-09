@@ -33,7 +33,7 @@ include 'menu.php';
 			<div class="grupoInputs">
 			<input type="mail" name="mail" placeholder="Mail"><br>
 		    </div>
-			<div class="grupoInputs">
+			<div class="grupoInputsfoto">
 			<input type="file" name="foto"><br>
 		    </div>
 			<div class="btn-submit">
